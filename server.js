@@ -1,11 +1,11 @@
-const express = require('express');
-const dotenv = require('dotenv');
-const db = require('./models');
+const express = require('express'); // setting up express server
+const dotenv = require('dotenv'); // loading environment variables
+const db = require('./models'); // importing database models
+dotenv.config(); // Load environment variables from .env file
 
-dotenv.config();
-
+// Initialize Express app
 const app = express();
-app.use(express.json());
+app.use(express.json()); // Parse JSON bodies
 
 // Routes
 const authRoutes = require('./routes/authRoutes');

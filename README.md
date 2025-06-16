@@ -50,6 +50,6 @@ This is a RESTful API built with **Node.js**, **Express**, **MySQL**, and **Sequ
 
 ## 🧰 Tools Used
 
-- MySQL Workbench (DB management)
-- Sequelize (ORM for MySQL) 
-- Postman (API testing)
+- **MySQL Workbench (DB management)**
+- **Sequelize (ORM for MySQL)**
+- **Postman (API testing)**

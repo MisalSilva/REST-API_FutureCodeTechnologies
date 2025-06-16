@@ -11,13 +11,13 @@ exports.register = async (req, res) => {
       return res.status(400).json({ message: 'All fields are required' });
     }
 
-    // Check for existing user
+    // Check for a existing user
     const existingUser = await User.findOne({ where: { email } });
     if (existingUser) {
       return res.status(409).json({ message: 'Email already registered' });
     }
 
-    // Create user
+    // Create a user
     const newUser = await User.create({ username, email, password });
     res.status(201).json({ message: 'User registered successfully', user: newUser });
   } catch (err) {
@@ -31,12 +31,12 @@ exports.login = async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    // Basic validation
+    // Ensure Basic validation
     if (!email || !password) {
       return res.status(400).json({ message: 'Email and password are required' });
     }
 
-    // Find user
+    // Find a user
     const user = await User.findOne({ where: { email, password } });
 
     if (!user) {

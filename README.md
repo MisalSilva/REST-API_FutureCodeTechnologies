@@ -25,14 +25,17 @@ This is a RESTful API built with **Node.js**, **Express**, **MySQL**, and **Sequ
 
 ---
 
-🧪 API Endpoints (Postman)
-🔐 User Routes
+## 🧪 API Endpoints (Postman)
+
+### 🔐 User Routes
 | Method | Endpoint             | Description         |
 | ------ | -------------------- | ------------------- |
 | POST   | `/api/auth/register` | Register a new user |
 | POST   | `/api/auth/login`    | Login user          |
 
-📦 Product Routes
+
+
+### 📦 Product Routes
 
 | Method | Endpoint            | Description          |
 | ------ | ------------------- | -------------------- |
@@ -42,13 +45,11 @@ This is a RESTful API built with **Node.js**, **Express**, **MySQL**, and **Sequ
 | PUT    | `/api/products/:id` | Update product by ID |
 | DELETE | `/api/products/:id` | Delete product by ID |
 
-🧰 Tools Used
-MySQL Workbench (DB management)
-This API does not include authentication or authorization.
-Sequelize (ORM for MySQL) The Sequelize ORM is used to handle model definitions and table creation.
+---
 
-Postman (API testing) You can test all endpoints via Postman.
 
-👨‍💻 Author
-[Your Name]
-Assignment for Backend Developer role – Future Code Technology
+## 🧰 Tools Used
+
+- MySQL Workbench (DB management)
+- Sequelize (ORM for MySQL) 
+- Postman (API testing)

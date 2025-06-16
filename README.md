@@ -1,6 +1,6 @@
 # 🚀 REST API - Backend Developer Assignment
 
-This is a RESTful API built with **Node.js**, **Express**, **MySQL**, and **Sequelize** to manage user registration/login and perform CRUD operations on products.
+This is a simple RESTful API built with **Node.js**, **Express**, **MySQL**, and **Sequelize** to manage user registration/login and perform CRUD operations on products.
 
 ## 📌 Features
 
